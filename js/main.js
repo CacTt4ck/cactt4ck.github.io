@@ -42,20 +42,19 @@ $(document).ready(function() {
         event.preventDefault();
 
         // Get form values
-        const name = $('#name').val();
-        const email = $('#email').val();
         const subject = $('#subject').val();
         const message = $('#message').val();
 
-        // You would typically send this data to a server here
-        // For demonstration, we'll just log it and show an alert
-        console.log('Form submitted:', { name, email, subject, message });
+        // Construire l'URL mailto avec les paramètres
+        const mailtoUrl = `mailto:pro.cac.corporation@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
 
-        // Reset form
-        $('#contactForm').trigger('reset');
+        // Ouvrir l'application de messagerie par défaut
+        window.location.href = mailtoUrl;
 
-        // Show success message (in a real app, only show this after successful submission)
-        alert('Merci pour votre message ! Je vous répondrai dès que possible.');
+        // Réinitialiser le formulaire après un court délai
+        setTimeout(function() {
+            $('#contactForm').trigger('reset');
+        }, 1000);
     });
 
     // Initialize portfolio item hover effects

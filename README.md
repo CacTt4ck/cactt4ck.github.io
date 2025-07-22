@@ -1,37 +1,37 @@
 ## Welcome to GitHub Pages
+# Portfolio de Thomas Caputi - Java Spring Boot Engineer
 
-You can use the [editor on GitHub](https://github.com/CacTt4ck/cactt4ck.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Bienvenue sur le dépôt de mon portfolio professionnel, hébergé sur GitHub Pages. Ce site présente mes compétences, expériences et projets en tant que Java Spring Boot Engineer.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Fonctionnalités
 
-### Markdown
+- **Design responsive** - Compatible avec tous les appareils (desktop, tablette, mobile)
+- **Sections détaillées** - Présentation, compétences, expériences, portfolio de projets et formulaire de contact
+- **Interface moderne** - Utilisation de Bootstrap et d'animations JavaScript pour une expérience utilisateur fluide
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Technologies utilisées
 
-```markdown
-Syntax highlighted code block
+- HTML5 / CSS3
+- JavaScript (jQuery)
+- Bootstrap 4.6
+- Font Awesome pour les icônes
+- Animations personnalisées
 
-# Header 1
-## Header 2
-### Header 3
+## Structure du projet
 
-- Bulleted
-- List
+- `index.html` - Page principale du portfolio
+- `css/style.css` - Feuille de styles personnalisés
+- `js/main.js` - Fonctionnalités JavaScript
+- `images/` - Dossier contenant les images du site
 
-1. Numbered
-2. List
+## À propos de moi
 
-**Bold** and _Italic_ and `Code` text
+Je suis un Java Spring Boot Engineer chez Capgemini Engineering, diplômé de CESI École d'Ingénieurs. Spécialisé dans le développement d'applications d'entreprise et les architectures microservices, j'ai une expertise approfondie en Java, Spring Boot, PostgreSQL, InfluxDB, AWS et Docker. J'applique quotidiennement les méthodologies Test Driven Development et Pair Programming avec une approche DevOps complète via GitLab CI/CD.
 
-[Link](url) and ![Image](src)
-```
+## Contact
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Vous pouvez me contacter via mon [profil LinkedIn](https://linkedin.com/in/thomas-caputi-552a6b17b) ou explorer mes projets sur [GitHub](https://github.com/CacTt4ck).
 
-### Jekyll Themes
+---
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CacTt4ck/cactt4ck.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+© 2025 Thomas Caputi. Tous droits réservés.
